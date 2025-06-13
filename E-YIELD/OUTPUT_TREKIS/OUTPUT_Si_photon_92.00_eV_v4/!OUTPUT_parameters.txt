@@ -1,0 +1,96 @@
+******************************************************************
+        _______   ____    _____   _   _   _    ___           
+       |__   __| |  _ \  |  ___| | | / / | |  / __|     __   
+          | |    | |_) ) | |___  | |/ /  | | ( (_      /  |  
+          | |    |    /  |  ___| |   (   | |  \_ \    /   |  
+          | |    | |\ \  | |___  | |\ \  | |  __) )  / /| |  
+          |_|    |_| \_\ |_____| |_| \_\ |_| |___/  / /_| |  
+                                                   |____   | 
+                                                        |_|  
+******************************************************************
+       TREKIS: Time-REsolved Kinetics in Irradiated Solids
+       TREKIS-4 (version 18.06.2024)
+       Available at https://github.com/N-Medvedev/TREKIS-4
+******************************************************************
+ Performed for the following parameters:
+ Material : Si
+ Contains 1 target
+ Target #1 is Si
+ Chemical formula interpreted as: 
+ 1.000000 of Si (element #14)
+ With the atomic density: 0.499390E+23 [1/cm^3]
+******************************************************************
+ The target is irradiated with 1 bunch
+ Bunch #1 consists of photon
+ with energy 92.000 [eV]
+******************************************************************
+ MC module is active  (v)
+ MD module is off  (x)
+ TTM module is off (x)
+ Number of threads for OPENMP: 24
+******************************************************************
+ Number of MC iterations: 1000000
+ Cross sections are read from files (if exist)
+******************************************************************
+ Models used:
+ Photon absorption: EPDL database
+ Photon Compton effect: No
+ Photon pair creation: No
+ Photon Rayleigh: No
+ Electron inelastic scattering: Delta-CDF (with Ritchie)
+ Electron elastic scattering: Mott
+ Electron Bremsstrahlung: No
+ Ion inelastic scattering: No
+ Positron inelastic scattering: No
+ Positron elastic scattering: No
+ Positron Bremsstrahlung: No
+ Positron annihilation: No
+ Valence hole inelastic scattering: Ritchie CDF
+ Valence hole elastic scattering: Ritchie CDF
+ Core hole Auger decay: EADL
+ Core hole radiative decay: EADL
+******************************************************************
+Element Si has 7 shells:
+ #	Designator	Name	Ne	Ip[eV]	Ek[eV]	Auger[fs]	Radiative[fs]
+  1  1 K  2.00   1844.0000   2572.6246  1.6249E+00  3.2525E+01
+  2  3 L1  2.00    154.0000    379.1113  3.9096E-01  2.7779E+04
+  3  5 L2  2.00    104.0000    339.0168  3.7608E+01  1.3426E+05
+  4  6 L3  4.00    104.0000    338.0530  3.7475E+01  1.3308E+05
+  5  8 M1  2.00     13.4600     47.6087  1.0000E+23  1.0000E+24
+  6 10 M2  0.67      8.1500     38.0624  1.0000E+23  1.0000E+24
+  7 11 M3  1.33      8.1500     37.9125  1.0000E+23  1.0000E+24
+******************************************************************
+CDF coefficients (normalized per molecule) in Si
+Element: Si
+Shell: K, A E0 Gamma    alpha
+    189.7682   1865.0000   1350.0000    149.8209
+
+Shell: L1, A E0 Gamma    alpha
+    174.7865    175.0000    175.0000    143.1058
+
+Shell: L2, A E0 Gamma    alpha
+    149.8170    125.0000     30.0000    195.6350
+
+Shell: L3, A E0 Gamma    alpha
+    299.6340    150.0000    120.0000    315.4640
+
+Shell: M1, A E0 Gamma    alpha
+    149.8170     35.9363     48.1920    182.2994
+
+Shell: M2, A E0 Gamma    alpha
+     49.9390     74.5261     70.7735     57.7606
+
+Shell: M3, A E0 Gamma    alpha
+    114.8597      9.0000     10.0000    135.9849
+
+******************************************************************
+Valence band, A E0 Gamma    alpha
+    270.0000     16.8000      4.1000    396.8360
+******************************************************************
+Phonons, A E0 Gamma alpha
+        0.001345        0.128387        0.064193        0.000000
+******************************************************************
+ Duration of execution of program: 16.424 sec
+ Started  at 13:34:12:567 on 01/05/2025
+ Finished at 13:34:28:991 on 01/05/2025
+******************************************************************
